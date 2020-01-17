@@ -5,10 +5,7 @@ const routes = require('./routes')
 
 const app = express()
 
- mongoose.connect('mongodb+srv://omnistack10:omnistack10@cluster0-wiyig.mongodb.net/test?retryWrites=true&w=majority', {
-     useNewUrlParser: true,
-     useUnifiedTopology: true
- })
+
 
 app.use(cors()) 
 app.use(express.json())
