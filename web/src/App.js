@@ -7,6 +7,7 @@ import './Main.css'
 
 import api from './services/Api'
 
+import DevForm from './components/DevForm'
 import DevItem from './components/DevItem'
 
 // componente -> bloco isolado de HTML CSS JS o qual nao interfere no restante da aplicacao
@@ -29,18 +30,8 @@ function App() {
     loadDevs()
   }, [])
 
-  async function handleAddDev(e) {
-    e.preventDefault()
-
-    const response = await api.post('./devs', {
-      github_username,
-      techs,
-      latitude,
-      longitude
-    })
-
-    setGithubUsername('')
-    setTechs('')
+  async function handleAddDev(data) {
+    const response = await api.post('./devs', data)
 
     setDevs([...devs, response.data])    
   }
@@ -49,7 +40,7 @@ function App() {
     <div id="app">
       <aside>
         <strong>Cadastrar</strong>
-          
+          <DevForm onSubmit={handleAddDev} />
       </aside>
 
       <main>
