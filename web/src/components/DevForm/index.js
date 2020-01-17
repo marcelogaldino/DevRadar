@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 function DevForm() {
 
@@ -6,6 +6,23 @@ function DevForm() {
     const [ techs, setTechs ] = useState('')
     const [ latitude, setLatitude ] = useState('')
     const [ longitude, setLongitude ] = useState('')
+
+    useEffect(() => {
+        navigator.geolocation.getCurrentPosition(
+          (position) => {
+            const { latitude, longitude } = position.coords
+    
+            setLatitude(latitude)
+            setLongitude(longitude)
+          },
+          (err) => {
+            console.log(err)
+          },
+          {
+            timeout: 30000
+          }
+        )
+      }, [])
 
     return (
         <form onSubmit={handleAddDev}>

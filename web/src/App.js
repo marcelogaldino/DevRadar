@@ -17,22 +17,7 @@ function App() {
   const [ devs, setDevs ] = useState([])
   
 
-  useEffect(() => {
-    navigator.geolocation.getCurrentPosition(
-      (position) => {
-        const { latitude, longitude } = position.coords
-
-        setLatitude(latitude)
-        setLongitude(longitude)
-      },
-      (err) => {
-        console.log(err)
-      },
-      {
-        timeout: 30000
-      }
-    )
-  }, [])
+ 
 
   useEffect(() => {
     async function loadDevs() {
