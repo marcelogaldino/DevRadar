@@ -47,20 +47,20 @@ yarn install
 
 - Web
     - <img src="https://img.shields.io/badge/axios-^0.19.1-blue"/> 
-    - <img src="https://img.shields.io/badge/react-dom-^16.12.0-blue"/> 
-    - <img src="https://img.shields.io/badge/react-scripts-3.3.0-blue"/> 
-    - <img src="https://img.shields.io/badge/serialize-javascript-^2.1.2-blue"/> 
+    - <img src="https://img.shields.io/badge/reactDom-^16.12.0-blue"/> 
+    - <img src="https://img.shields.io/badge/reactScripts-3.3.0-blue"/> 
+    - <img src="https://img.shields.io/badge/serializeJavascript-^2.1.2-blue"/> 
 
 
 <br>
 
 - Mobile
-    - <img src="https://img.shields.io/badge/react-native-gesture-handler-~1.5.0-purple"/> 
-    - <img src="https://img.shields.io/badge/react-native-maps-0.26.1-purple"/> 
-    - <img src="https://img.shields.io/badge/react-native-webview-7.4.3-purple"/> 
+    - <img src="https://img.shields.io/badge/reactNativeGestureHandler-~1.5.0-purple"/> 
+    - <img src="https://img.shields.io/badge/reactNativeMaps-0.26.1-purple"/> 
+    - <img src="https://img.shields.io/badge/reactNativeWebview-7.4.3-purple"/> 
     - <img src="https://img.shields.io/badge/expo-~36.0.0-purple"/> 
     - <img src="https://img.shields.io/badge/axios-^0.19.1-purple"/> 
-    - <img src="https://img.shields.io/badge/socket.io-client-2.1.1-purple"/> 
+    - <img src="https://img.shields.io/badge/socket.ioClient-2.1.1-purple"/> 
 
 <br>
 
