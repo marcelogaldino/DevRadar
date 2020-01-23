@@ -2,6 +2,10 @@
 Find Devs nearby, based on technologies you like 🛰
 
 <p align="center">
+    <img src="/assets/App.png">
+</p>
+
+<p align="center">
     <img src="/assets/web.png">
 </p>
 
