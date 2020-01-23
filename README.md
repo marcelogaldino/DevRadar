@@ -1,5 +1,5 @@
 # DevRadar
-Find Devs nearby, based on technologies you like
+Find Devs nearby, based on technologies you like 🛰
 
 <p align="center">
     <img src="/assets/web.png">
