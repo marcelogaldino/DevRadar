@@ -31,9 +31,9 @@ Find Devs nearby, based on technologies you like  🛰 .
 
 ## STACK
 
--💹 NodeJS
--⚛️ ReactJS
--⚛️ React Native
+- NodeJS
+- ReactJS
+- React Native
 
 ### Dependencies
 
