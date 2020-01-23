@@ -19,7 +19,7 @@ Find Devs nearby, based on technologies you like
 
 
 <p align="center">
-Find Devs nearby, based on technologies you like 🛰.
+Find Devs nearby, based on technologies you like  🛰 .
 
 <br>
 <br>
@@ -31,9 +31,9 @@ Find Devs nearby, based on technologies you like 🛰.
 
 ## STACK
 
-- NodeJS
-- ReactJS
-- React Native
+-💹 NodeJS
+-⚛️ ReactJS
+-⚛️ React Native
 
 ### Dependencies
 
