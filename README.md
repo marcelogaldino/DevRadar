@@ -65,11 +65,11 @@ yarn install
 <br>
 
 - Server
-    - <img src="https://img.shields.io/badge/axios-^0.19.1-purple"/> 
-    - <img src="https://img.shields.io/badge/cors-^2.8.5-purple"/> 
-    - <img src="https://img.shields.io/badge/express-^4.17.1-purple"/> 
-    - <img src="https://img.shields.io/badge/mongoose-^5.8.7-purple"/> 
-    - <img src="https://img.shields.io/badge/socket.io-^2.3.0-purple"/> 
+    - <img src="https://img.shields.io/badge/axios-^0.19.1-green"/> 
+    - <img src="https://img.shields.io/badge/cors-^2.8.5-green"/> 
+    - <img src="https://img.shields.io/badge/express-^4.17.1-green"/> 
+    - <img src="https://img.shields.io/badge/mongoose-^5.8.7-green"/> 
+    - <img src="https://img.shields.io/badge/socket.io-^2.3.0-green"/> 
 
 
 <br>
